@@ -1,0 +1,55 @@
+@charset 'UTF-8';
+ul{
+    list-style-type: none;
+}
+.shoppingcar-list{
+    border-bottom: none;
+    background: #fcfcfc;
+    display: block;
+}
+.checkbox{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    min-height: 119px;
+
+}
+li img{
+    width: 80px;
+    height: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #3c3c3c;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+}
+li .title,.des,.price,.color,.nums,.size,.city {
+    font-size: 12px;
+    display: block;
+    max-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3c3c3c;
+    text-decoration: none;
+    margin: -3px 0 0 91px;
+    padding-right: 25px;
+}
+.price {
+    color: #3c3c3c;
+    font-weight: 700;
+    font-style: normal;
+    padding: 8px 0 0 10px;
+    line-height: 1;
+    width: 74px;
+    display: block;
+    margin-right: 0;
+}
+.delete{
+    float: left;
+    padding: 0 0 0 30px;
+    display: block;
+}
+
